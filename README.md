@@ -1,6 +1,6 @@
 # Sound Separator: ICA Demonstration
 
-This project was intended to **study and demonstrate the use of Independent Component Analysis** [[1](http://arnauddelorme.com/ica_for_dummies/),[2](http://efavdb.com/independent-component-analysis/)] for **separation of mixed recorded sound** to its original independent sources.
+This project was intended to **study and demonstrate the use of Independent Component Analysis** [[1](https://www.sciencedirect.com/science/article/pii/S2210832718301819),[2](http://arnauddelorme.com/ica_for_dummies/),[3](http://efavdb.com/independent-component-analysis/)] for **separation of mixed recorded sound** to its original independent sources.
 
 The recording of the audio signals and the **synchronization of their start times (based on their convolution) seemed to go well** (see screenshot below).
 However, the **decomposition of the independent components** (using SKlearn's implementation of [FastICA](https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html)) **yielded quite poor results**.
