@@ -16,7 +16,7 @@ It is also possible that the recorded volume of the sources was not balanced eno
 As a fallback, a separation of a toy example (see [here](http://www.cs.ubbcluj.ro/~csatol/mach_learn/) under "Independent Component Analysis of Recordings") was attempted.
 Even though the source sounds are quite monotonous, homogeneous and unique, FastICA seemed to successfully reconstruct only 2 out of the 4.
 
-I guess that out-of-the-box ICA is just not strong enough to do a good job on arbitrary everyday-sounds.
+I guess that out-of-the-box ICA is just not strong enough to do a good job on arbitrary everyday-sounds (unless I terribly messed-up something in the few lines of code applying the ICA, which is always a reasonable possibility).
 
 ## Implementation and use
 
